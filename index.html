@@ -13,6 +13,21 @@
     <!-- nav bar with 3 requirement links -->
     <div class="header">
       <!-- add anchor tags to the nav links -->
+      <style>
+        .header {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+        }
+        .header > div {
+          background-color: #f1f1f1;
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+      </style>
       <nav>
         <div>
           <a href="#about-me">About Me</a>
@@ -26,4 +41,38 @@
       </nav>
     </div>
   </body>
+
+  <main class="main content">
+    <!-- this will have the information from the nav bar links-->
+    <section id="about-me" class="about me section">
+      <!-- add ID and give it a class -->
+      <p>
+        <!-- add the content in the paragraph -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+        minus laudantium quisquam repellat, odio sint totam vitae ad maxime
+        ipsam iusto recusandae delectus obcaecati aspernatur error quod,
+        repellendus libero. Ipsa!
+      </p>
+    </section>
+    <section id="my-projects" class="project section">
+      <!-- add ID and give it a class -->
+      <p>
+        <!-- add the content in the paragraph -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+        adipisci inventore autem magni commodi molestiae quibusdam facilis
+        dicta, a dolorum odio illum blanditiis in? Quasi nemo ea blanditiis
+        voluptatem id?
+      </p>
+    </section>
+    <section id="contact-me" class="contact me section">
+      <!-- add ID and give it a class -->
+      <p>
+        <!-- add the content in the paragraph -->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
+        quaerat, inventore nisi voluptatem hic cumque mollitia vel voluptate
+        placeat aperiam architecto cupiditate officia necessitatibus laudantium
+        sed voluptates enim possimus eligendi!
+      </p>
+    </section>
+  </main>
 </html>
