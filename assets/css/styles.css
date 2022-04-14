@@ -1,9 +1,13 @@
+.body {
+  background-color: coral;
+}
+
 .header nav {
   display: flex;
   flex-direction: row;
   font-size: larger;
   padding-bottom: 30px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .nav-bar-container {
@@ -31,4 +35,15 @@
   float: left;
   margin-right: 25px;
   max-width: 30%;
+}
+
+.other-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.placeholder-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
