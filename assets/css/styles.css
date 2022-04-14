@@ -1,5 +1,28 @@
-.header {
+.header nav {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  font-size: larger;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+.nav-bar-container {
+  background-color: cornflowerblue;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+  max-width: 30%;
 }

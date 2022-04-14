@@ -11,53 +11,60 @@
 
   <body>
     <!-- nav bar with 3 requirement links -->
-    <div class="header">
+    <header class="header">
       <!-- add anchor tags to the nav links -->
-      <style>
-        .header {
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: row;
-        }
-        .header > div {
-          background-color: #f1f1f1;
-          width: 100px;
-          margin: 10px;
-          text-align: center;
-          line-height: 75px;
-          font-size: 30px;
-        }
-      </style>
-      <nav>
+      <nav class="nav-bar-container">
         <div>
           <a href="#about-me">About Me</a>
-        </div>
-        <div>
+
           <a href="#my-projects">My Projects</a>
-        </div>
-        <div>
+
           <a href="#contact-me">Contact Me</a>
         </div>
       </nav>
-    </div>
+    </header>
   </body>
 
-  <main class="main content">
+  <main class="main-content">
     <!-- this will have the information from the nav bar links-->
-    <section id="about-me" class="about me section">
-      <!-- add ID and give it a class -->
-      <h1>About Me</h1>
-      <p>
-        <!-- add the content in the paragraph -->
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-        minus laudantium quisquam repellat, odio sint totam vitae ad maxime
-        ipsam iusto recusandae delectus obcaecati aspernatur error quod,
-        repellendus libero. Ipsa!
+    <section id="about-me" class="about-me-container">
+      <div class="about-me">
+        <h1>About Me</h1>
+
+        <img class="float-left"
+        src="./assets/css/images/me.jpg" alt="Abu">
+        
+
+
+
+        <!-- <img src=" add image here" alt=""add alt> -->
+        <p>
+          <!-- add the content in the paragraph -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
+          minus laudantium quisquam repellat, odio sint totam vitae ad maxime
+          ipsam iusto recusandae delectus obcaecati aspernatur error quod,
+          repellendus libero. Ipsa!
+          <h2>skills</h2>
+          <ul>
+              <li>
+                  <div>
+                      1
+                      2
+                      3
+                  </div>
+
+      </div>
+      
+                
+            </li>
+        </ul>
       </p>
     </section>
     <section id="my-projects" class="project section">
       <!-- add ID and give it a class -->
       <h1>My Projects</h1>
+      <!-- first project spans across the whole page -->
+      <!-- add the placeholder images -->
       <p>
         <!-- add the content in the paragraph -->
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
@@ -71,11 +78,20 @@
       <h1>Contact Me</h1>
       <p>
         <!-- add the content in the paragraph -->
+        <!-- add git links -->
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
         quaerat, inventore nisi voluptatem hic cumque mollitia vel voluptate
         placeat aperiam architecto cupiditate officia necessitatibus laudantium
         sed voluptates enim possimus eligendi!
       </p>
     </section>
+    <footer>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+        reprehenderit nisi praesentium dolore hic molestiae, accusamus quo,
+        eveniet vitae culpa explicabo ducimus? Repudiandae nesciunt eos optio
+        est a sapiente consequuntur?
+      </p>
+    </footer>
   </main>
 </html>
