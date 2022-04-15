@@ -1,14 +1,13 @@
 .body {
-  background-color:#495057;
+  background-color: #495057;
 }
 
 .header nav {
   display: flex;
   flex-direction: row;
   font-size: larger;
-  /* padding-bottom: 30px; */
-  padding: 15px;
   justify-content: space-evenly;
+  padding: 15px;
 }
 
 .nav-bar-container {
@@ -39,6 +38,12 @@
   float: left;
   margin-right: 25px;
   max-width: 30%;
+
+}
+
+.marketing-header {
+
+    text-align: center;
 }
 
 /* .other-projects {
@@ -49,7 +54,6 @@
 .placeholder-container {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .flex-item {
@@ -61,13 +65,22 @@
   flex-basis: (50% - 1em);
 }
 
-.flex-item-other-projects {
+.other-project-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+padding: 75px;
 
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px;
-    max-width: 479px;
-    max-height: 359px;
+
+}
+
+.flex-item-other-projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  max-width: 479px;
+  max-height: 359px;
+  align-items: center;
 
 }
 
