@@ -92,3 +92,10 @@ div.other-project-container div.abc {
     flex-direction: column;
 margin: 5%;
 }
+.contact-container {
+  display: flex;
+  flex-direction: row;
+}
+.contact-me {
+  padding: 5px;
+}
