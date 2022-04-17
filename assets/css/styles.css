@@ -10,8 +10,12 @@
   padding: 10px 20px;
 }
 
+.about-me {
+  /* possible background image */
+}
+
 .nav-bar-container {
-  background-color: cornflowerblue;
+  background-color: royalblue;
   text-decoration: none;
   display: flex;
   flex: row;
@@ -41,6 +45,13 @@
 
 }
 
+@media screen (max-width: 400px) {
+  .marketing-class {
+    justify-self: start;
+  }
+  
+}
+
 .marketing-header {
 
     text-align: center;
@@ -51,11 +62,17 @@
   flex-wrap: wrap;
 }
 
+@media screen (max-width: 530px) {
 .placeholder-container {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
+  position: absolute;
+  /* width: 100%;
+  height: 100%; */
 }
+}
+
 
 .flex-item:first-child {
     display: flex;
@@ -68,7 +85,8 @@
     
 
 .flex-item {
-  max-height: 20px;
+  width: 100%;
+height: 100%;
 display: flex;
   padding: 10px;
   margin: 5px;
@@ -81,21 +99,24 @@ flex-wrap: wrap;
 /* justify-content: flex-start; */
 }
 
+@media screen (max-width: 320px) {
 div.other-project-container div.abc {
     display: flex;
     flex-direction: column;
 }
+}
+
 
 .abc {
     display: flex;
     flex-direction: column;
 margin: 6%;
-@media (max-width: 250px) {
-  .text {
-    font-size: 16px;
-  }
 }
+
+.contact-main {
+  text-align: center;
 }
+
 .contact-container {
   display: flex;
   flex-direction: row;
@@ -106,6 +127,6 @@ margin: 6%;
   padding: 5px;
 }
 
-.fa-solid fa-copyright {
-  align-content: center;
+.footer {
+  text-align: center;
 }
