@@ -5,21 +5,22 @@
 .header nav {
   display: flex;
   flex-direction: row;
-  font-size: larger;
+  font-size: 20px;
   justify-content: center;
-  padding: 10px 20px;
-}
-
-.about-me {
-  /* possible background image */
+  padding: 70px;
+  color:white;
+  background-image: url(./images/background-image-nav.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3px;
 }
 
 .nav-bar-container {
-  background-color: royalblue;
+
   text-decoration: none;
   display: flex;
   flex: row;
-  /* justify-content: flex-end; */
 }
 
 .main-content {
@@ -40,6 +41,10 @@
   font-size: 24px;
 }
 
+.marketing-text {
+text-align: center;
+}
+
 .skills {
   font-size: 10;
   text-decoration: underline;
@@ -58,9 +63,9 @@
 
 }
 
-@media screen (max-width: 400px) {
+@media screen (max-width: 600px) {
   .marketing-class {
-    justify-self: start;
+  
   }
   
 }
