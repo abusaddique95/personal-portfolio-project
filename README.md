@@ -4,8 +4,7 @@ A personal portfolio to showcase the projects i have done on my programming jour
 
 ## Deployed URL
 
-<!-- add deployed link before submitting.
-can you change the navbar? -->
+https://abusaddique95.github.io/personal-portfolio-project/
 
 ## Technologies
 

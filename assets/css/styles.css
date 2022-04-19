@@ -2,6 +2,8 @@
   background-color: #495057;
 }
 
+/* target nav bar as a flex element */
+
 .header nav {
   display: flex;
   flex-direction: row;
@@ -9,6 +11,7 @@
   color: aqua;
   justify-content: space-evenly;
   padding: 70px;
+  /* add background image to the nav bar */
   background-image: url(./images/background-image-nav.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -16,12 +19,14 @@
   opacity: 0.5;
 }
 
-/* .nav-bar-container {
+.nav-bar-container a {
 
   text-decoration: none;
-  display: flex;
-  flex: row;
-} */
+  /* display: flex;
+  flex: row; */
+color: white;
+}
+
 
 .main-content {
   display: flex;
@@ -84,8 +89,6 @@ text-align: center;
   flex-wrap: wrap;
   padding: 50px;
   position: absolute;
-  /* width: 100%;
-  height: 100%; */
 }
 }
 
