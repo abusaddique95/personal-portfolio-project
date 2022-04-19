@@ -4,7 +4,8 @@ A personal portfolio to showcase the projects i have done on my programming jour
 
 ## Deployed URL
 
-https://abusaddique95.github.io/marketing-agency-refactor/
+<!-- add deployed link before submitting.
+can you change the navbar? -->
 
 ## Technologies
 
