@@ -27,6 +27,19 @@
   flex-direction: column;
 }
 
+.titles {
+  text-decoration-line: underline;
+  font-size: 36px;
+  color: aliceblue ;
+}
+
+.marketing-header {
+
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 24px;
+}
+
 .skills {
   font-size: 10;
   text-decoration: underline;
@@ -52,10 +65,7 @@
   
 }
 
-.marketing-header {
 
-    text-align: center;
-}
 
 .other-projects {
   display: flex;
@@ -115,6 +125,9 @@ margin: 6%;
 
 .contact-main {
   text-align: center;
+  font-size: 36px;
+  color: aliceblue;
+  text-decoration-line: underline;
 }
 
 .contact-container {
