@@ -1,0 +1,158 @@
+.body {
+  /* background-color: #495057; */
+  background-image: url(./images/body-image.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* target nav bar as a flex element */
+
+.header nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: aqua;
+  justify-content: space-evenly;
+  padding: 70px;
+  /* add background image to the nav bar */
+  background-image: url(./images/background-image-nav.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar-container a {
+
+  text-decoration: none;
+  /* display: flex;
+  flex: row; */
+color: white;
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.titles {
+  text-decoration-line: underline;
+  font-size: 36px;
+  color: aliceblue ;
+}
+
+.marketing-header {
+
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 24px;
+}
+
+.marketing-text {
+text-align: center;
+}
+
+.skills {
+  font-size: 10;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.skillset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+  max-width: 30%;
+
+}
+
+@media screen (max-width: 600px) {
+  .marketing-class {
+  
+  }
+  
+}
+
+
+
+.other-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen (max-width: 530px) {
+.placeholder-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  position: absolute;
+}
+}
+
+
+.flex-item:first-child {
+    display: flex;
+    flex-wrap: wrap;
+      min-height: 300px;
+      max-height: 50px;
+    min-width: 75%
+      flex-basis: 100%;
+    }
+    
+
+.flex-item {
+  width: 100%;
+height: 100%;
+display: flex;
+  padding: 10px;
+  margin: 5px;
+  flex-basis: (50% - 1em);
+}
+
+div.other-project-container {
+    display: flex;
+flex-wrap: wrap;
+/* justify-content: flex-start; */
+}
+
+@media screen (max-width: 320px) {
+div.other-project-container div.abc {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+.abc {
+    display: flex;
+    flex-direction: column;
+margin: 6%;
+}
+
+.contact-main {
+  text-align: center;
+  font-size: 36px;
+  color: aliceblue;
+  text-decoration-line: underline;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.contact-me {
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+}
